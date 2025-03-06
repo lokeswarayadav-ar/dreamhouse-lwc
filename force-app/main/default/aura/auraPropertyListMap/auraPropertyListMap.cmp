@@ -8,7 +8,11 @@
         scripts="{!$Resource.leaflet + '/leaflet.js'}"
         afterScriptsLoaded="{!c.handleJSLoaded}"
     />
-
+<ltng:require
+        styles="{!$Resource.leaflet + '/leaflet.css'}"
+        scripts="{!$Resource.leaflet + '/leaflet.js'}"
+        afterScriptsLoaded="{!c.handleJSLoaded}"
+    />
     <aura:attribute name="searchKey" type="String" default="" />
     <aura:attribute name="maxPrice" type="integer" default="1200000" />
     <aura:attribute name="minBedrooms" type="integer" default="0" />
